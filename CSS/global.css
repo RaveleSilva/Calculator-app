@@ -52,14 +52,16 @@ body{
   padding: 1rem 0px;
   transition: 0.4s;
   cursor: pointer;
+  color: var(--c2);
 }
 
 .keys button:hover{
   background-color: var(--c5);
 }
 
-#del, #reset{
-  font-size: 1.3rem !important;
+#del, #reset, #result{
+  font-size: 1.3rem;
+  color: var(--c0);
 }
 
 #del:hover, #reset:hover{
