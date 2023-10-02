@@ -13,6 +13,9 @@ function showNum(num){
 
   } else if (operators.includes(lastChar) && operators.includes(num)) {
 
+  } else if (currentText.slice(-2) == '/0') {
+    display.innerHTML = Infinity;
+
   } else {
     display.innerHTML += num;
   }
