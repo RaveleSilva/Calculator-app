@@ -47,3 +47,7 @@ buttons.forEach(button =>{
 del.addEventListener('click', () => delNum(display.innerHTML));
 reset.addEventListener('click', () => clearDisplay());
 result.addEventListener('click', () => showResult());
+
+//Color Theme Switcher
+
+

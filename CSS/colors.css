@@ -1,53 +1,117 @@
-:root{
-  --c0:rgb(255, 255, 255);
-  --c1:hsl(225, 21%, 49%);
-  --c2:hsl(222, 26%, 31%);
-  --c3:hsl(224, 36%, 15%);
-  --c4:hsl(6, 63%, 50%);
+[data-theme='first']{
+  --bg0:hsl(222, 26%, 31%);
+  --bg1:hsl(223, 31%, 20%);
+  --bg2:hsl(224, 36%, 15%);
+  --bg3:hsl(225, 21%, 49%);
+  --bg4:hsl(6, 63%, 50%);
+  --bg5:hsl(30, 25%, 89%);
 
-  --c5:hsl(28, 16%, 65%);
-  --c6:hsl(221, 14%, 31%);
-  --c7:hsl(6, 70%, 34%);
+  --h0:hsl(225, 58%, 75%);
+  --h1:hsl(30, 100%, 97%);
+  --h2:hsl(6, 84%, 65%);
+
+  --s0:hsl(224, 28%, 35%);
+  --s1:hsl(6, 70%, 34%);
+  --s2:hsl(30, 25%, 89%);
+  --s3:hsl(28, 16%, 65%);
+
+  --t1:hsl(221, 14%, 31%);
+  --t2:hsl(0, 0%, 100%);
+}
+
+[data-theme='second']{
+  --bg0:hsl(0, 0%, 90%);
+  --bg1:hsl(0, 5%, 81%);
+  --bg2:hsl(0, 0%, 93%);
+  --bg3:hsl(185, 42%, 37%);
+  --bg4:hsl(25, 98%, 40%);
+  --bg5:hsl(45, 7%, 89%);
+
+  --h0:hsl(185, 56%, 57%);
+  --h1:hsl(0, 0%, 67%);
+  --h2:hsl(25, 88%, 62%);
+
+  --s0:hsl(185, 58%, 25%);
+  --s1:hsl(25, 99%, 27%);
+  --s2:hsl(45, 7%, 89%);
+  --s3:hsl(35, 11%, 61%);
+
+  --t1:hsl(60, 10%, 19%);
+  --t2:hsl(0, 0%, 16%);
+}
+
+[data-theme='third']{
+  --bg0:hsl(268, 75%, 9%);
+  --bg1:hsl(268, 71%, 12%);
+  --bg2:hsl(224, 36%, 15%);
+  --bg3:hsl(281, 89%, 26%);
+  --bg4:hsl(176, 100%, 44%);
+  --bg5:hsl(268, 47%, 21%);
+
+  --h0:hsl(281, 63%, 41%);
+  --h1:hsl(268, 45%, 40%);
+  --h2:hsl(176, 100%, 44%);
+
+  --s0:hsl(285, 91%, 52%);
+  --s1:hsl(177, 92%, 70%);
+  --s2:hsl(268, 47%, 21%);
+  --s3:hsl(290, 70%, 36%);
+
+  --t1:hsl(52, 100%, 62%);
+  --t2:hsl(52, 100%, 62%);
 }
 
 .c-0{
-  color: var(--c0);
-}
-.c-1{
-  color: var(--c1);
-}
-.c-2{
-  color: var(--c2);
-}
-.c-3{
-  color: var(--c3);
-}
-.c-4{
-  color: var(--c4);
+  color: white;
 }
 
 .bg-0{
-  background-color: var(--c0);
+  background-color: var(--bg0);
 }
 .bg-1{
-  background-color: var(--c1);
+  background-color: var(--bg1);
 }
 .bg-2{
-  background-color: var(--c2);
+  background-color: var(--bg2);
 }
 .bg-3{
-  background-color: var(--c3);
+  background-color: var(--bg3);
+}
+.bg-3:hover{
+  background-color: var(--h0);
 }
 .bg-4{
-  background-color: var(--c4);
+  background-color: var(--bg4);
+}
+.bg-4:hover{
+  background-color: var(--h2);
+}
+
+.bg-5{
+  background-color: var(--bg5);
+}
+.bg-5:hover{
+  background-color: var(--h1);
+}
+
+
+.t-1{
+  color: var(--t1);
+}
+
+.t-2{
+  color: var(--t2);
 }
 
 .s-0{
-  box-shadow: 0px 4px 4px var(--c5);
+  box-shadow: 0px 5px 2px var(--s0);
 }
 .s-1{
-  box-shadow: 0px 4px 4px var(--c6);
+  box-shadow: 0px 5px 2px var(--s1);
 }
 .s-2{
-  box-shadow: 0px 4px 4px var(--c7);
+  box-shadow: 0px 5px 2px var(--s2);
+}
+.s-3{
+  box-shadow: 0px 5px 2px var(--s3);
 }

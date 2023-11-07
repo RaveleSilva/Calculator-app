@@ -5,6 +5,7 @@
   list-style: none;
   text-decoration: none;
   font-family: 'League Spartan', sans-serif;
+  transition: 0.4s;
 }
 
 button{
@@ -23,12 +24,12 @@ body{
 }
 
 .header{
-  margin-bottom: 40px;
+  margin-bottom: 1.5rem;
 }
 
 .display{
   padding: 28px 20px;
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-align: right;
   border-radius: 12px;
   margin-bottom: 20px;
@@ -52,20 +53,10 @@ body{
   padding: 1rem 0px;
   transition: 0.4s;
   cursor: pointer;
-  color: var(--c2);
-}
-
-.keys button:hover{
-  background-color: var(--c5);
 }
 
 #del, #reset, #result{
   font-size: 1.3rem;
-  color: var(--c0);
-}
-
-#del:hover, #reset:hover{
-  background-color: var(--c2);
 }
 
 #reset{
@@ -74,8 +65,4 @@ body{
 
 #result{
   grid-column: 3 / -1;
-}
-
-#result:hover{
-  background-color: var(--c7);
 }
