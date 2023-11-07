@@ -59,6 +59,7 @@ body{
   cursor: pointer;
   padding: 10px;
   order: 1;
+  visibility: hidden;
 }
 
 .theme-switcher label{
