@@ -50,4 +50,23 @@ result.addEventListener('click', () => showResult());
 
 //Color Theme Switcher
 
+const radioInputs = document.querySelectorAll('input[name="theme"]');
 
+function changeTheme(value) {
+  if (value === '1') {
+    document.documentElement.setAttribute('data-theme', 'first');
+  } else if (value === '2') {
+    document.documentElement.setAttribute('data-theme', 'second')
+  } else {
+    document.documentElement.setAttribute('data-theme', 'third')
+  }
+}
+
+radioInputs.forEach(radio => {
+  radio.addEventListener('click', function() {
+    if (this.checked) {
+      const selectedValue = this.value;
+      changeTheme(selectedValue);
+    };
+  })
+});
