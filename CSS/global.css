@@ -44,7 +44,7 @@ body{
   background-color: var(--bg1);
   border-radius: 50px;
   position: absolute;
-  left: 55px;
+  left: 58px;
   top: 18px;
 }
 
@@ -76,7 +76,7 @@ body{
   background-color: transparent;
   position: absolute;
   z-index: 1;
-  right: -4px;
+  right: -6px;
   top: 23px;
   display: block;
 }
