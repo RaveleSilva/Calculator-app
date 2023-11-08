@@ -19,7 +19,7 @@ body{
 
 .container{
   margin: auto;
-  padding: 40px 20px;
+  padding: 40px 10px;
   max-width: 400px;
 }
 
@@ -27,6 +27,7 @@ body{
   margin-bottom: 1.5rem;
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
 }
 
 .theme-switcher{
